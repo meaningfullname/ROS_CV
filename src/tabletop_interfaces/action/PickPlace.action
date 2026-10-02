@@ -1,0 +1,8 @@
+geometry_msgs/Point pick
+geometry_msgs/Point place
+---
+bool success
+string message
+float32 elapsed_seconds
+---
+string stage

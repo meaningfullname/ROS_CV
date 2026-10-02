@@ -1,0 +1,6 @@
+# Pip overrides/additions on top of environment-linux-64.lock.txt.
+# Install only inside the isolated ROS environment.
+pybullet==3.2.7
+colcon-core==0.21.3
+colcon-notification==0.3.3
+notify2==0.3.1

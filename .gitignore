@@ -1,0 +1,14 @@
+build/
+install/
+log/
+.venv/
+.ros-env/
+.mamba/
+.tools/
+__pycache__/
+.pytest_cache/
+*.jsonl
+artifacts/
+*.egg-info/
+.coverage
+validation.previous.json

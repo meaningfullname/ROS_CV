@@ -1,0 +1,23 @@
+name: tabletop-ros
+channels:
+  - robostack-jazzy
+  - conda-forge
+dependencies:
+  - ros-jazzy-ros-base
+  - ros-jazzy-cv-bridge
+  - ros-jazzy-message-filters
+  - ros-jazzy-rosidl-default-generators
+  - ros-dev-tools
+  # colcon's legacy symlink build requires setuptools' develop command.
+  - setuptools <80
+  - python =3.12
+  - cmake
+  - ninja
+  - cxx-compiler
+  - numpy <2
+  - opencv
+  - pytest >=8,<9
+  - pip
+  - pip:
+      - pybullet==3.2.7
+      - colcon-notification==0.3.3
